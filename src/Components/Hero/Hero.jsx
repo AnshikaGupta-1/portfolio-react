@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Hero.css'
 import profile_img from '../../assets/me.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import resume from '../../assets/Resume_Anshika_Gupta.pdf'
+import resume from '../../assets/Anshika.pdf'
 
 const Hero = () => {
   const [currentWord, setCurrentWord] = useState('');
