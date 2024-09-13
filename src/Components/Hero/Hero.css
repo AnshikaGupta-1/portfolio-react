@@ -1,0 +1,120 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35 px;
+}
+.hero img{
+    margin-top: 20px;
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 70px;
+    font-weight: 600;
+}
+@keyframes textclip {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+.hero h1 span{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 50%, #23E1CF 75%, #5A00E1 102.06%);
+    background-clip: text;
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    animation: textclip 2s linear infinite;
+    margin-bottom: 35px;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.cursor {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 40px;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 25px 45px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.hero-resume a{
+    color: #FFF; /* Set text color to white */
+    text-decoration: none;  /*Optionally remove underline */
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}
+@media(max-width: 768px){
+    .hero img{
+        margin-top: 60px;
+        width: 260px;
+    }
+    .hero h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .cursor {
+        display: inline-block;
+        font-size: 18px;
+        line-height: 40px;
+        animation: blink 0.7s steps(1) infinite;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero-resume{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+}
