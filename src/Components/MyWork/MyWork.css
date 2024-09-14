@@ -98,6 +98,11 @@
     
 }
 @media(max-width: 768px){
+    .mywork-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
     .mywork{
         gap: 50px;
         margin: 50px 70px;
@@ -112,14 +117,9 @@
         width: 130px;
         margin-right: -20px;
     }
-    .mywork-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
     .mywork-container img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .mywork-showmore{
         padding: 20px 40px;

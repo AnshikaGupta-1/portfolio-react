@@ -29,22 +29,22 @@ const About = () => {
         <div className="about-achievements">
         <div className="about-achievement">
                 <h1> 20+ </h1>
-                <p> PROJECTS COMPLETED</p>
+                <p> PROJECTS COMPLETED </p>
             </div>
             <hr/>
            <div className="about-achievement">
                 <h1> 3 </h1>
-                <p>YEARS OF DATA SCIENCE SPECIALIZATION</p>
+                <p> YEARS OF DATA SCIENCE SPECIALIZATION </p>
             </div>
             <hr/>
             <div className="about-achievement">
                 <h1> 1 </h1>
-                <p>RESEARCH PAPER ACCEPTED</p>
+                <p> RESEARCH PAPER ACCEPTED </p>
             </div>
             <hr/>
             <div className="about-achievement">
-                <h1>8.75</h1>
-                <p>CGPA</p>
+                <h1> 8.75 </h1>
+                <p> CGPA </p>
             </div>
         </div>
     </div>
