@@ -99,9 +99,7 @@
 }
 @media(max-width: 768px){
     .mywork-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        grid-template-columns: 1fr !important;
     }
     .mywork{
         gap: 50px;
@@ -111,7 +109,6 @@
     .mywork-title h1{
         padding: 0;
         font-size: 50px;
-        font-weight: 600;
     }
     .mywork-title img{
         width: 130px;
