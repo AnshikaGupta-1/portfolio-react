@@ -102,9 +102,9 @@
         grid-template-columns: 1fr !important;
     }
     .mywork{
+        align-items: start;
         gap: 70px;
         margin: 20px 70px;
-        align-items: start;
     }
     .mywork-title h1{
         padding: 0;
