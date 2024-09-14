@@ -121,8 +121,8 @@
 }
 @media(max-width: 768px){
     .contact{
-        gap: 50px;
-        margin: 50px 70px;
+        gap: 70px;
+        margin: 20px 70px;
         align-items: start;
     }
     .contact-title h1{
