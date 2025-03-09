@@ -61,7 +61,7 @@ const Hero = () => {
         <p>{currentWord}<span className="cursor">|</span></p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#work'>See My Projects</AnchorLink></div>
-            <div className="hero-resume"><a href={resume} download="Anshika_Gupta_Resume.pdf">Download Resume</a></div>
+            <div className="hero-resume"><a href={resume} download="Anshika Gupta - Resume.pdf">Download Resume</a></div>
         </div>
     </div>
   )
